@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+  }
+
+  /* Import Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+  
+  body, html {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    height: 100%;
+    overflow-x: hidden;
+  }
+  
+  /* Background Video */
+  #background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  /* Navbar */
+  .navbar-wrapper {
+    width: 100%;
+    padding: 1rem 2rem;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .navbar {
+    width: 100%;
+    max-width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+  }
+  
+  /* Logo */
+  .top-left-image {
+    height: 28px;
+  }
+  
+  /* Nav Links */
+  .nav-links {
+    display: flex;
+    gap: 1.5rem;
+    font-weight: 500;
+    font-size: 14px;
+    color: white;
+  }
+  
+  .nav-links span:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  
+  /* Icon*/
+  .icon-container {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .icon-container img {
+    height: 18px;
+    filter: invert(1);
+    transition: transform 0.3s ease;
+  }
+  
+  .icon-container img:hover {
+    transform: scale(1.1);
+  }
+  
+  /* Center */
+  .center-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .model {
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  
+  .price, .price2 {
+    font-weight: 400;
+    margin-top: 10px;
+  }
+  
+  /* Buttons */
+  .button-row {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .order-button, .learn-button {
+    padding: 0.7rem 2rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+  }
+  
+  .order-button {
+    background-color: white;
+    color: black;
+  }
+  
+  .learn-button {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    border: 1px solid white;
+  }
+  
+  .order-button:hover, .learn-button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Footer */
+  .footer {
+    position: relative;
+    text-align: center;
+    color: white;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-top: 100vh;
+  }
+  
+  .footer p {
+    margin: 0.5rem 0;
+  }
+  
+  .social-media-icons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .social-media-icons img {
+    height: 20px;
+    filter: invert(1);
+    transition: transform 0.3s;
+  }
+  
+  .social-media-icons img:hover {
+    transform: scale(1.2);
+  }
+  
+    .center-content .model {
+      font-size: 2rem;
+    }
+  
+    .center-content .price, .price2 {
+      font-size: 14px;
+    }
+  
+    .button-row {
+      flex-direction: column;
+      gap: 0.7rem;
+    }
+  
+    .order-button, .learn-button {
+      width: 200px;
+    }
+  
