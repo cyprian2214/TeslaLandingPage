@@ -31,7 +31,7 @@ A responsive Tesla Model Y landing page clone built using HTML and CSS, designed
 
     Clone the repository:
 
-git clone https://github.com/cyprian2214/tesla-landing-page.git
+git clone https://github.com/cyprian2214/TeslaLandingPage.git
 
 Navigate to the project folder:
 
